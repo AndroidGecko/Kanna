@@ -228,10 +228,6 @@ internal final class libxmlHTMLDocument: HTMLDocument {
         rootNode  = libxmlHTMLNode(document: self, docPtr: docPtr)
     }
     
-    deinit {
-        xmlFreeDoc(self.docPtr)
-    }
-
     var title: String? { return at_xpath("//title")?.text }
     var head: XMLElement? { return at_xpath("//head") }
     var body: XMLElement? { return at_xpath("//body") }
