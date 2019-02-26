@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name             = "Kanna"
-  s.version          = "4.0.3"
+  s.version          = "4.0.4"
   s.summary          = "Kanna is an XML/HTML parser for iOS/macOS/watchOS/tvOS and Linux."
-  s.homepage         = "https://github.com/tid-kijyun/Kanna"
+  s.homepage         = "https://github.com/AndroidGecko/Kanna"
   s.license          = 'MIT'
   s.author           = { "Atsushi Kiwaki" => "tid.develop@gmail.com" }
-  s.source           = { :git => "https://github.com/tid-kijyun/Kanna.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/AndroidGecko/Kanna.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/_tid_'
 
   s.ios.deployment_target = '8.0'
